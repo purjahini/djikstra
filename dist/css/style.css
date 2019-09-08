@@ -1,0 +1,55 @@
+
+.googlemap{
+		margin: auto;
+		padding: 0;
+		width: 100%;
+	}
+	#map_area{
+		float:left;
+		width:70%;
+		height:50%;
+	}
+
+	#map_canvas{
+		margin:auto;
+		width: 100%;
+		height: 500px;
+		
+		padding:2px;
+	}
+	
+	#map_canvas2{
+		margin:auto;
+		width: 100%;
+		height: 600px;
+		
+		padding:2px;
+	}
+	#floating-panel { 
+		position: absolute; 
+		top: 10px; 
+		left: 25%; 
+		z-index: 5; 
+		background-color: #fff; 
+		padding: 5px; 
+		border: 1px solid #999; 
+		text-align: center; 
+		font-family: 'Roboto','sans-serif'; 
+		line-height: 30px; 
+		padding-left: 10px; 
+	}
+	#panel{
+	overflow-y: scroll;
+	height: 600px;
+	}
+	#right-panel {
+		height: 100%;
+		float: right;
+		width: 390px;
+		overflow: auto;
+	}
+	#map { 
+		margin-top: 0px; 
+		width: 100%; 
+		height: 400px; 
+	}
