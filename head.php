@@ -27,6 +27,8 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true&key=AIzaSyB2Xd4GJtDxGPUI7nlMV-I99x5EQqYqhGc&callback=initialize"></script>
+
+<?php if(!isset($_POST['lihat_rute'])){?>
 <script>
 
 // memeriksa apakah pengguna menyediakan semua data untuk menambahkan lokasi baru
@@ -306,5 +308,20 @@ jQuery(document).ready(function(){
 	});
 
 </script>
+
+<?php }else{ //jika ada input ?>
+
+<script type="text/javascript">
+		function initialize(){
+
+  		$(document).ready(function() {
+  			initmap();
+  		}
+	}
+
+
+</script>
+
+<?php }; ?>
 
 </head>

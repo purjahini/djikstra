@@ -42,7 +42,7 @@ function DeleteConfirm(url){
                         <div class="panel-heading">
                             <div class="row">
                             	<div class="col-md-12">
-    	                        <span class="pull-left"><h4>Setting Rute</h4></span>
+    	                        <span class="pull-left"><h4>Setting Rute Sekolah</h4></span>
 	                        	<span class="pull-right"><a href="<?php echo $link_update;?>" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i> Tambah Data</a></span>
                         		</div>
                         	</div>
@@ -56,7 +56,7 @@ function DeleteConfirm(url){
 		  								<th>Lokasi Awal</th>
           								<th>Lokasi Tujuan</th>
           								<th>Lat-Lng</th>
-          								<th>Alamat</th>
+          								<th>Alamat Sekolah</th>
 		  								<th>Control</th>
                                     </tr>
                                 </thead>

@@ -101,7 +101,7 @@ $cetak='Tambah';
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3><?php echo $cetak ?> Rute Wisata</h3>
+                            <h3><?php echo $cetak ?> Rute Sekolah</h3>
                         </div>
                         <div class="panel-body">
                             <div class="row">
@@ -145,7 +145,7 @@ $cetak='Tambah';
                                     	</div>
                                     	</div>
                                         <div class="form-group">
-                                            <label>Alamat Lokasi</label>
+                                            <label>Alamat Sekolah</label>
                                             <input class="form-control" name="alamat" type="text"  id="address" value="<?php echo $alamat;?>" readonly />
                                             <p class="form-control-static">* Lat-Lang serta Alamat otomatis tampil ketika peta di Atas Anda Klik</p>
                                         </div>

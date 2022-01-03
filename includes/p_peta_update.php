@@ -116,7 +116,7 @@ $cetak='Tambah';
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3><?php echo $cetak ?> Data Peta Wisata</h3>
+                            <h3><?php echo $cetak ?> Data Peta Sekolah</h3>
                         </div>
                         <div class="panel-body">
                             <div class="row">
@@ -129,13 +129,13 @@ $cetak='Tambah';
                                             echo '<div class="alert alert-danger alert-dismissable">'.$error.'</div>';
                                         } ?>
                                     	<div class="form-group">
-                                            <label>Nama Wisata </label>
+                                            <label>Nama Sekolah </label>
                                             <input class="form-control" type="text" value="<?php echo $nama;?>" name="nama" required>
                                         </div>
                                          <div class="form-group">
-                                            <label>Kategori Wisata</label>
+                                            <label>Kategori Sekolah</label>
                                             <select class="form-control" name="kategori">
-                                                <option value>--Pilih Kategori Wisata--</option>
+                                                <option value>--Pilih Kategori Sekolah--</option>
                                                 <?php echo $list_kategori;?>
                                             </select>
                                         </div>

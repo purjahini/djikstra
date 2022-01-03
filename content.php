@@ -13,7 +13,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Dashboard :: Kelola Wisata ::</a>
+                <a class="navbar-brand" href="index.php">Dashboard :: Kelola Sekolah ::</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -43,9 +43,9 @@
                         <li>
                             <a href="#"><i class="fa fa-map-marker fa-fw"></i> Map Setting<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
-                                <li><a href="?hal=data_kategori">Kategori Peta</a></li>
-                                <li><a href="?hal=data_peta">Peta Wisata</a></li>
-                                <li><a href="?hal=data_rute">Setting Rute</a></li>
+                                <li><a href="?hal=data_kategori">Kategori Sekolah</a></li>
+                                <li><a href="?hal=data_peta">Peta Sekolah</a></li>
+                                <li><a href="?hal=data_rute">Setting Rute Sekolah</a></li>
                             </ul>
                         </li>
                         <li>
@@ -83,7 +83,7 @@
         	<div class="row">
                 <div class="col-lg-12">
                     <h3 class="page-header"></h3>
-                    <h5 align="center">&copy; Copyright © 2019 OGGY</h5>
+                    <h5 align="center">&copy; Copyright © 2022 FALIS</h5>
                 </div>
             </div>
         </div>

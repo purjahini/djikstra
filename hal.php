@@ -40,13 +40,13 @@ include 'head.php';
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img src="user/img/logo.png" alt="" width="199" height="52" /></a>
+                    <a class="navbar-brand" href="index.php"><img src="user/img/logo.png" alt="" width="100" height="70" /></a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li><a href="index.php"><i class="fa fa-home fa-sw"></i> Beranda </a></li>
-                        <li><a href="pengunjung.php?hal=rute_wisata_user"> Rute Wisata </a></li>
-                        <li><a href="pengunjung.php?hal=info_wisata"> Info Lokasi Wisata </a></li>
+                        <li><a href="pengunjung.php?hal=rute_wisata_user"> Rute Sekolah </a></li>
+                        <li><a href="pengunjung.php?hal=info_wisata"> Info Lokasi Sekolah </a></li>
                         <li><a href="pengunjung.php?hal=hubungi"> Contact </a></li>
                         <li><a href="pengunjung.php?hal=login"> Login <i class="fa fa-user"></i></a></li>
 
@@ -70,7 +70,7 @@ include 'head.php';
         <div class="col-lg-6">
           <div class="copyright">
             <p>
-              <span>&copy; Copyright © 2019 OGGY</span>            
+              <span>&copy; Copyright © 2022 FALIS</span>            
             </p>
           </div>
         </div>

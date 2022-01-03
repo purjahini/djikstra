@@ -49,7 +49,7 @@ $locations = mysql_query("SELECT * FROM peta_wisata,kategori where peta_wisata.i
       <div class="col-lg-12">
         <ul class="breadcrumb">
           <li><a href="#"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
-          <li class="active">Info Lokasi Wiasata</li>
+          <li class="active">Info Lokasi Sekolah</li>
         </ul>
       </div>
     </div>
@@ -60,7 +60,7 @@ $locations = mysql_query("SELECT * FROM peta_wisata,kategori where peta_wisata.i
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h4>Berita Wisata</h4>
+				<h4>Berita Sekolah</h4>
 			</div>
 	<?php while($h=mysqli_fetch_array($q)){ ?>
 			<div class="col-lg-4">
